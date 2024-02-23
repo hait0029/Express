@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        // Include Bootstrap CSS
+        link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css", rel="stylesheet")
+        // Custom CSS
+        link(rel="stylesheet", href="./layout.css")
+    body 
+        nav.nav-bar 
+            // Bootstrap navbar with custom class
+            nav.navbar.navbar-expand-sm.navbar-dark.bg-dark
+                div.container-fluid
+                    a.navbar-brand(href="/") Logo
+
+                    ul.navbar-nav.me-auto
+                        li.nav-item
+                            // Home link with Bootstrap class
+                            a.nav-link(href="/") Home
+                        li.nav-item
+                            // About Us link with Bootstrap class
+                            a.nav-link(href="/about") About Us
+                        li.nav-item
+                            // Contact link with Bootstrap class
+                            a.nav-link(href="/contact") Contact
+
+        block content

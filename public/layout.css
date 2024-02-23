@@ -1,0 +1,56 @@
+body {
+    background-color: #222222;
+}
+
+h1 {
+
+    text-align: center;
+    color: #dddddd;
+    font-style: italic;
+    font-weight: bold;
+}
+p{
+  color: #dddddd;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+.nav-item{
+    padding-right: 10px;
+    font-weight: bold;
+  
+  
+  
+  }
+  .navbar-brand{
+    font-style: italic;
+    font-weight: bold;
+  
+  }
+  a:hover {
+    color: red;
+  
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a{
+    color: white;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-top: 10%;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    color: #dddddd;
+    padding: 8px;
+  }
+  
+  
